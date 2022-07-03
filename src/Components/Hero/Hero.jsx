@@ -6,10 +6,17 @@ import HeroBack from "../../assets/hero_image_back.png";
 const Hero = () => {
   return (
     <div className="row m-0 text-white pl-1">
-      <div className="mt-5 col-lg-9 col-xlg-9 col-md-12 col-sm-12 col-12">
+      <div className="left-h mt-5 col-lg-9 col-xlg-9 col-md-12 col-sm-12 col-12">
+        <div className="bp">
+        <i class="fa-solid fa-heart-pulse"></i>
+          <span>Heart Pulse</span>
+          <p>220 kcal</p>
+        </div>
         <div className="best-ad">
           <div className="circle"></div>
-          <span className="fitness-text">THE BEST FITNESS CLUB IN THE TOWN</span>
+          <span className="fitness-text">
+            THE BEST FITNESS CLUB IN THE TOWN
+          </span>
         </div>
         <div className="title mt-5">
           <span className="header">
@@ -44,8 +51,12 @@ const Hero = () => {
       <div className="right-h mt-5 col-lg-3 col-xlg-3 col-md-12 col-sm-12 col-12">
         <img className="hero-img" src={HeroImg} alt="" />
         <img className="hero-back" src={HeroBack} alt="" />
+        <div className="heart">
+          <i class="fa-solid fa-heart-crack"></i>
+          <span>Heart Rate</span>
+          <p>116 bpm</p>
+        </div>
       </div>
-      
     </div>
   );
 };

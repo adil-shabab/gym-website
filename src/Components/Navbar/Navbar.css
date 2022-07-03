@@ -3,7 +3,7 @@
     height: 3rem;
     cursor: pointer;
 }
-.nav ul li{
+.nav .nav-ul li{
     list-style: none;
     margin-right: 20px;
 }
@@ -22,8 +22,36 @@
     color: var(--orange);
     background: white;
 }
+.show-nav ul li{
+    list-style: none;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    transition: 0.9s ease;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.show-nav ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.show-nav ul li:hover{
+    background: var(--orange);
+}
+.show-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 992px) {
-    .nav ul{
+    .nav .nav-ul{
         display: none !important;
     }
     .logo img{
