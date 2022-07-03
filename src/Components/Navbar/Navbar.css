@@ -1,0 +1,11 @@
+.navbar-brand img{
+    width: 10rem;
+    height: 3rem;
+}
+#navbarSupportedContent li a{
+    cursor: pointer;
+    transition: 0.8s ease-out;
+}
+#navbarSupportedContent li a:hover{
+    color: var(--orange);
+}
