@@ -20,13 +20,20 @@
   background-color: var(--appColor);
   display: flex;
   flex-direction: column;
-  gap: 6rem;
-  overflow: hidden;
+  margin: 0;
+  gap: 2rem;
+  overflow-x: hidden;
+  /* overflow: hidden; */
 }
 ::-webkit-scrollbar{
   display: none;
 }
-
+.stroke{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: transparent;
+  font-family: 'Finlandica', sans-serif;
+}
 
 .button {
   background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);

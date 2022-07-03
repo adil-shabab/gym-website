@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap');
+
+.best-ad{
+    padding: 20px 15px;
+    background: rgb(50, 47, 47);
+    color: white;
+    border-radius: 25px;
+    position: relative;
+    width: 310px;
+    z-index: 1;
+}
+.circle{
+    width: 35%;
+    height: 80%;
+    margin-top: 7px;
+    background: var(--orange);
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+    left: 0;
+    z-index: -1;
+    animation: animate 10s linear infinite;
+}
+.best-ad span{
+    z-index: 9;
+}
+
+.header{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Finlandica', sans-serif;
+}
+.but{
+    padding: 10px 25px;
+    background: var(--orange);
+    border: 1px solid var(--orange) !important;
+    color: white;
+    transition: 0.8s ease;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.but:hover{
+    background: white;
+    color: var(--orange);
+}
+.right-h{
+    background: var(--orange);
+    position: relative;
+}
+.hero-img{
+    width: 350px;
+    position: absolute;
+    left: -180px;
+    z-index: 1;
+    top: 40px;
+}
+.hero-back{
+    position: absolute;
+    top: 0px;
+    left: -250px;
+    z-index: 0;
+}
+@media (max-width: 992px) {
+    .hero-back{
+        left: 5px;
+    }
+}
+@media (max-width: 992px) {
+    .hero-img{
+        left: 55px;
+    }
+}
+
+
+@keyframes animate {
+    0%{
+        margin-left: 20px;
+    }
+    10%{
+        margin-left: 40px;
+    }
+    20%{
+        margin-left: 60px;
+    }
+    30%{
+        margin-left: 80px;
+    }
+    40%{
+        margin-left: 100px;
+    }
+    45%{
+        margin-left: 120px;
+    }
+    50%{
+        margin-left: 140px;
+    }
+    55%{
+        margin-left: 160px;
+    }
+    60%{
+        margin-left: 180px;
+    }
+    62%{
+        margin-left: 200px;
+    }
+    65%{
+        margin-left: 220px;
+    }
+    70%{
+        margin-left: 180px;
+    }
+    75%{
+        margin-left: 150px;
+    }
+    78%{
+        margin-left: 120px;
+    }
+    80%{
+        margin-left: 100px;
+    }
+    85%{
+        margin-left: 80px;
+    }
+    90%{
+        margin-left: 50px;
+    }
+    100%{
+        margin-left: 10px;
+    }
+
+
+}
