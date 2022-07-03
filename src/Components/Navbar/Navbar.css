@@ -1,11 +1,36 @@
-.navbar-brand img{
+.logo img{
     width: 10rem;
     height: 3rem;
-}
-#navbarSupportedContent li a{
     cursor: pointer;
-    transition: 0.8s ease-out;
 }
-#navbarSupportedContent li a:hover{
+.nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.hidden{
+    display: none;
+}
+.hidden i{
+    color: white;
+    padding: 10px;
+    background: var(--orange);
+    border-radius: 15px;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+.hidden i:hover{
     color: var(--orange);
+    background: white;
+}
+@media (max-width: 992px) {
+    .nav ul{
+        display: none !important;
+    }
+    .logo img{
+        width: 7rem;
+        height: 2rem;
+    }
+    .hidden{
+        display: block;
+    }
 }
