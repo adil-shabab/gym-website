@@ -5,11 +5,11 @@ import HeroBack from "../../assets/hero_image_back.png";
 
 const Hero = () => {
   return (
-    <div className="row m-0 text-white pl-5">
+    <div className="row m-0 text-white pl-1">
       <div className="mt-5 col-lg-9 col-xlg-9 col-md-12 col-sm-12 col-12">
         <div className="best-ad">
           <div className="circle"></div>
-          <span>THE BEST FITNESS CLUB IN THE TOWN</span>
+          <span className="fitness-text">THE BEST FITNESS CLUB IN THE TOWN</span>
         </div>
         <div className="title mt-5">
           <span className="header">
@@ -24,16 +24,16 @@ const Hero = () => {
         </p>
         <div className="count mt-5 d-flex">
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
-            <span>+ 140</span>
-            <span>EXPERT COACHES</span>
+            <span className="span">+ 140</span>
+            <span className="span">COACHES</span>
           </div>
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
-            <span>+ 978</span>
-            <span>MEMBERS JOINED</span>
+            <span className="span">+ 978</span>
+            <span className="span">MEMBERS</span>
           </div>
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
-            <span>+ 50</span>
-            <span>FITNESS PROGRAMS</span>
+            <span className="span">+ 50</span>
+            <span className="span">PROGRAMS</span>
           </div>
         </div>
         <div className="buttons mt-3 d-flex">

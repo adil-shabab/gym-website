@@ -6,7 +6,7 @@
     color: white;
     border-radius: 25px;
     position: relative;
-    width: 310px;
+    width: 280px;
     z-index: 1;
 }
 .circle{
@@ -21,6 +21,9 @@
     left: 0;
     z-index: -1;
     animation: animate 10s linear infinite;
+}
+.fitness-text{
+    font-size: 13px;
 }
 .best-ad span{
     z-index: 9;
@@ -37,7 +40,7 @@
     border: 1px solid var(--orange) !important;
     color: white;
     transition: 0.8s ease;
-    font-weight: bold;
+    font-size: 15px;
     border: none;
     border-radius: 10px;
 }
@@ -66,12 +69,17 @@
     .hero-back{
         left: 5px;
     }
-}
-@media (max-width: 992px) {
     .hero-img{
         left: 55px;
     }
+    .header{
+        font-size: 3.2rem;
+    }
+    .span{
+        font-size: 0.8rem;
+    }
 }
+
 
 
 @keyframes animate {
