@@ -60,6 +60,14 @@
   width: 80px;
   font-weight: bold;
 }
+.heading{
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 100px;
+  gap: 25px;
+}
 
 .button:hover {
   background: white;
