@@ -6,18 +6,38 @@
 }
 .part-2{
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    gap: 5px;
 }
 .first-img{
     width: 250px !important;
     height: 500px !important;
 }
+.line{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.line img{
+    width: 30px;
+}
+.line p{
+    margin-top: 10px;
+}
 
-
-
-@media (max-width: 600px) {
+@media (max-width: 1450px) {
     .first-img{
-        /* width: 100% !important; */
         display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .right-w{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 420px) {
+    .header p{
+        font-size: 2rem;
     }
 }
