@@ -1,4 +1,51 @@
-.plan-div{
-    height: 500px;
-    background: #000;
+.plans .d-flex{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.plans .d-flex p{
+    margin-top: 15px;
+}
+.p-box{
+    background: rgb(78, 74, 74);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 10px;
+    border-radius: 15px;
+    height: 530px;
+    color: white;
+}
+.p-box img{
+    width: 20px;
+    height: 20px;
+}
+.premium{
+    height: 580px;
+    margin-top: -25px;
+    color: white;
+    background: var(--orange);
+}
+.p-box i{
+    font-size: 3rem;
+    margin-bottom: 25px;
+    color: var(--orange);
+}
+.p-box>:nth-child(3){
+    font-size: 2rem;
+    font-weight: bold;
+}
+.premium i{
+    color: white;
+}
+
+
+
+@media (max-width: 992px) {
+    .premium{
+        height: 530px;
+        margin-top: 0px;
+    }
 }

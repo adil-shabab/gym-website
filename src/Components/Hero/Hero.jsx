@@ -31,15 +31,15 @@ const Hero = () => {
         </p>
         <div className="count mt-5 d-flex">
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
-            <span className="span">+ 140</span>
+            <span className="number">+ 140</span>
             <span className="span">COACHES</span>
           </div>
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
-            <span className="span">+ 978</span>
+            <span className="number">+ 978</span>
             <span className="span">MEMBERS</span>
           </div>
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
-            <span className="span">+ 50</span>
+            <span className="number">+ 50</span>
             <span className="span">PROGRAMS</span>
           </div>
         </div>

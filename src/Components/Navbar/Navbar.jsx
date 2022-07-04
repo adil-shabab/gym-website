@@ -28,13 +28,13 @@ const Navbar = () => {
       </div>
       <div className="hidden">
         {menu ? (
-          <i class="fa-solid fa-xmark"></i>
+          <i onClick={navbar} class="fa-solid fa-xmark"></i>
         ) : (
           <i onClick={navbar} class="fa-solid fa-bars"></i>
         )}
       </div>
       {menu ? (
-        <div className="show-nav">
+        <div className="show-nav mt-3">
           <ul>
             <li>Home</li>
             <li>Programs</li>
