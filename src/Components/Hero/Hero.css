@@ -37,20 +37,7 @@
     font-size: 5rem;
     font-family: 'Finlandica', sans-serif;
 }
-.but{
-    padding: 10px 25px;
-    background: var(--orange);
-    border: 1px solid var(--orange) !important;
-    color: white;
-    transition: 0.8s ease;
-    font-size: 15px;
-    border: none;
-    border-radius: 10px;
-}
-.but:hover{
-    background: white;
-    color: var(--orange);
-}
+
 .right-h{
     background: var(--orange);
     position: relative;
