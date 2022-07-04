@@ -1,0 +1,23 @@
+.images{
+    display: flex;
+}
+.images img{
+    width: 100%;
+}
+.part-2{
+    display: flex;
+    gap: 10px;
+}
+.first-img{
+    width: 250px !important;
+    height: 500px !important;
+}
+
+
+
+@media (max-width: 600px) {
+    .first-img{
+        /* width: 100% !important; */
+        display: none;
+    }
+}
