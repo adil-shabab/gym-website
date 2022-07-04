@@ -32,9 +32,9 @@ const Why = () => {
                 </div>
             </div>
         </div>
-        <div className="right-w d-flex flex-column col-lg-6 col-xlg-6 col-md-12 col-sm-12 col-12">
-            <span>SOME REASONS</span>
-            <p className="header"><span className="stroke">WHY</span> CHOOSE US ?</p>
+        <div className="text-white right-w d-flex flex-column col-lg-6 col-xlg-6 col-md-12 col-sm-12 col-12">
+            <span style={{color: 'var(--orange)'}}>SOME REASONS</span>
+            <p className="head"><span className="stroke">WHY</span> CHOOSE US ?</p>
             <div className="line">
                 <img src={tick} alt="" />
                 <p>OVER 140+ EXPERTS COACHS</p>
@@ -51,7 +51,7 @@ const Why = () => {
                 <img src={tick} alt="" />
                 <p>RELIABLE PARTNERS</p>
             </div>
-            <p>OUR PARTNERS</p>
+            <p className='mt-5'>OUR PARTNERS</p>
             <div className="brands">
                 <img src={adidas} alt="" />
                 <img src={nike} alt="" />

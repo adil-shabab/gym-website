@@ -24,6 +24,17 @@
 .line p{
     margin-top: 10px;
 }
+.brands{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.head{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem !important;
+}
+
 
 @media (max-width: 1450px) {
     .first-img{
@@ -36,8 +47,8 @@
         margin-top: 40px;
     }
 }
-@media (max-width: 420px) {
-    .header p{
-        font-size: 2rem;
+@media (max-width: 620px) {
+    .head{
+        font-size: 2rem !important;
     }
 }
