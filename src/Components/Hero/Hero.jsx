@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="left-h mt-5 col-lg-9 col-xlg-9 col-md-12 col-sm-12 col-12">
         <div className="bp">
         <i class="fa-solid fa-heart-pulse"></i>
-          <span>Heart Pulse</span>
+          <span>Calories burned</span>
           <p>220 kcal</p>
         </div>
         <div className="best-ad">

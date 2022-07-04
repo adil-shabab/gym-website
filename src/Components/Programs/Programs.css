@@ -1,0 +1,9 @@
+.heading{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+    gap: 15px;
+}
