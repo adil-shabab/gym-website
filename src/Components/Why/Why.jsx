@@ -19,7 +19,7 @@ const Why = () => {
                 </div>
                 <div className="section-2 px-2">
                     <div className="part-1">
-                        <img src={image2} alt="" />
+                        <img data-aos='slide-left' src={image2} alt="" />
                     </div>
                     <div className="part-2 pt-2">
                         <div className="box-1">
