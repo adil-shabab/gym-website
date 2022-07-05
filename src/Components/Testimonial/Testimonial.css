@@ -6,5 +6,38 @@
     margin-top: 100px;
     margin-bottom: 50px;
 }
+.swiper {
+    padding: 50px 150px !important;
+    height: 100%;
+    cursor: grab;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-pagination-bullets{
+    margin-top: 100px;
+  }
 
 
+  @media (max-width: 992px) {
+    .swiper{
+        padding: 50px 30px !important;
+    }
+  }
