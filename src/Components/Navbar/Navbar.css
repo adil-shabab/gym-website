@@ -6,6 +6,11 @@
 .nav .nav-ul li{
     list-style: none;
     margin-right: 20px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.nav .nav-ul li:hover{
+    color: var(--orange);
 }
 .hidden{
     display: none;
