@@ -1,9 +1,19 @@
 .email input{
     border: none;
     border-radius: 6px;
-    height: 43px;
+    height: 43px ;
     padding-left: 15px;
 }
 .email{
     gap: 5px;
+}
+.thanks{
+    margin: auto;
+    color: rgb(18, 107, 18);
+    font-size: 1rem;
+    margin-top: 35px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: white;
+    font-weight: bold;
 }

@@ -1,11 +1,11 @@
 import './Contact.css'
 
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
-
+  const [contact, setContact] = useState(false)
   const form = useRef();
 
 
@@ -15,6 +15,7 @@ const Contact = () => {
     emailjs.sendForm('service_w615m58', 'template_8r4wfva', form.current, '_ZF_lEXLnGlyO6WlC')
       .then((result) => {
           console.log(result.text);
+          setContact(true)
       }, (error) => {
           console.log(error.text);
       });
@@ -32,6 +33,7 @@ const Contact = () => {
             <input className='input w-100' type="email" name="email" id="email" />
             <button className='but' type='submit'>Join</button>
         </form>
+        <span className={contact && 'thanks'}>{contact && '-- Thank you for contacting us --'}</span>
     </div>
   )
 }
