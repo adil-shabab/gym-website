@@ -6,9 +6,9 @@ const Plans = () => {
   return (
     <div className="mt-5 mb-5 container">
       <div className="heading m-5">
-        <p className="m-0 stroke">READY TO START</p>
-        <p className="m-0 stroke">YOUR JOURNEY</p>
-        <p className="m-0 stroke">NOW WITHUS</p>
+        <p className="m-0 head stroke">READY TO START</p>
+        <p className="m-0 head stroke">YOUR JOURNEY</p>
+        <p className="m-0 head stroke">NOW WITHUS</p>
       </div>
       <div className="plans row">
         <div className="p-3 col-lg-4 col-xlg-4 col-md-12 col-sm-12 col-12 plan-div">

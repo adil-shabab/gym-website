@@ -16,8 +16,8 @@ const Testimonial = () => {
       >
         TESTIMONIAL
       </span>
-      <p className="mt-4 head m-0 stroke">WHAT THEY SAY</p>
-      <p className="stroke head">ABOUT US</p>
+      <p className="mt-4 head m-0 stroke">WHAT THEY SAY ABOUT US</p>
+      {/* <p className="stroke head"></p> */}
       <Swiper
         loop={true}
         grabCursor={true}
