@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import HeroImg from "../../assets/hero_image.png";
 import HeroBack from "../../assets/hero_image_back.png";
+import NumberCounter from 'number-counter'
 
 const Hero = () => {
   return (
@@ -31,15 +32,21 @@ const Hero = () => {
         </p>
         <div className="count mt-5 d-flex">
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
-            <span className="number">+ 140</span>
+            <span className="number">
+            <NumberCounter end={140} start={50} delay='4' preFix='+' />
+            </span>
             <span className="span">COACHES</span>
           </div>
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
-            <span className="number">+ 978</span>
+            <span className="number">
+            <NumberCounter end={978} start={150} delay='4' preFix='+' />
+            </span>
             <span className="span">MEMBERS</span>
           </div>
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
-            <span className="number">+ 50</span>
+            <span className="number">
+            <NumberCounter end={50} start={0} delay='5' preFix='+' />
+            </span>
             <span className="span">PROGRAMS</span>
           </div>
         </div>
