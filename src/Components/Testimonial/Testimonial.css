@@ -1,43 +1,66 @@
-.testimonial{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 50px;
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 .swiper {
-    padding: 50px 150px !important;
-    height: 100%;
-    cursor: grab;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  .swiper-pagination-bullets{
-    margin-top: 100px;
-  }
+  padding: 50px 150px !important;
+  height: 100%;
+  cursor: grab;
+}
+.slide{
+    padding: 20px 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.slide img{
+    width: 230px;
+    height: 300px;
+    padding: 10px;
+    border: 5px solid var(--button);
+}
+/* .slide .bg{
+    position: absolute;
+    background: transparent;
+    border: 5px solid var(--button);
+    left: 130px;
+    top: -25px;
+    z-index: -1;
+    width: 290px;
+    height: 350px ;
+}
+.coach{
+    position: relative;
+} */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background: rgb(101, 99, 99);
 
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination-bullets {
+  margin-top: 100px;
+}
 
-  @media (max-width: 992px) {
-    .swiper{
-        padding: 50px 30px !important;
-    }
+@media (max-width: 992px) {
+  .swiper {
+    padding: 50px 30px !important;
   }
+}
