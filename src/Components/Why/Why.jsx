@@ -15,7 +15,7 @@ const Why = () => {
         <div className="d-flex justify-content-center align-items-center col-lg-6 col-xlg-6 col-md-12 col-sm-12 col-12">
             <div className="images">
                 <div className="section-1 px-2">
-                    <img className='first-img' src={image1} alt="" />
+                    <img data-aos='slide-right' className='first-img' src={image1} alt="" />
                 </div>
                 <div className="section-2 px-2">
                     <div className="part-1">
@@ -23,10 +23,10 @@ const Why = () => {
                     </div>
                     <div className="part-2 pt-2">
                         <div className="box-1">
-                            <img className='small-img' src={image3} alt="" />
+                            <img data-aos='slide-right' className='small-img' src={image3} alt="" />
                         </div>
                         <div className="box-2">
-                            <img className='small-img' src={image4} alt="" />
+                            <img data-aos='slide-left' className='small-img' src={image4} alt="" />
                         </div>
                     </div>
                 </div>
@@ -53,9 +53,9 @@ const Why = () => {
             </div>
             <p className='mt-5'>OUR PARTNERS</p>
             <div className="brands">
-                <img src={adidas} alt="" />
-                <img src={nike} alt="" />
-                <img src={nb} alt="" />
+                <img data-aos='slide-up' src={adidas} alt="" />
+                <img data-aos='slide-down' src={nike} alt="" />
+                <img data-aos='slide-up' src={nb} alt="" />
             </div>
         </div>
     </div>

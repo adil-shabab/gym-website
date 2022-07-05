@@ -51,14 +51,14 @@ const Hero = () => {
           </div>
         </div>
         <div className="buttons mt-3 d-flex">
-          <button className="mr-4 but">Get Started</button>
-          <button className="but">Learn More</button>
+          <button data-aos='slide-right' className="mr-4 but">Get Started</button>
+          <button data-aos='slide-right' className="but">Learn More</button>
         </div>
       </div>
       <div className="right-h mt-5 col-lg-3 col-xlg-3 col-md-12 col-sm-12 col-12">
         <img className="hero-img" src={HeroImg} alt="" />
-        <img className="hero-back" src={HeroBack} alt="" />
-        <div className="heart">
+        <img data-aos='slide-left' className="hero-back" src={HeroBack} alt="" />
+        <div data-aos='slide-right' className="heart">
           <i class="fa-solid fa-heart-crack"></i>
           <span>Heart Rate</span>
           <p>116 bpm</p>

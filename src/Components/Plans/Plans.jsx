@@ -12,7 +12,7 @@ const Plans = () => {
       </div>
       <div className="plans row">
         <div className="p-3 col-lg-4 col-xlg-4 col-md-12 col-sm-12 col-12 plan-div">
-          <div className="p-box">
+          <div data-aos='slide-right' className="p-box">
             <i class="fa-solid fa-indian-rupee-sign"></i>
             <h3 className="font-weight-bold">BASIC PLAN</h3>
             <span>$ 25</span>
@@ -34,7 +34,7 @@ const Plans = () => {
           </div>
         </div>
         <div className="p-3 col-lg-4 col-xlg-4 col-md-12 col-sm-12 col-12 plan-div">
-          <div className="p-box premium">
+          <div data-aos='slide-left' className="p-box premium">
             <i class="fa-solid fa-crown"></i>
             <h3 className="font-weight-bold">PREMIUM PLAN</h3>
             <span>$ 35</span>
@@ -56,7 +56,7 @@ const Plans = () => {
           </div>
         </div>
         <div className="p-3 col-lg-4 col-xlg-4 col-md-12 col-sm-12 col-12 plan-div">
-          <div className="p-box">
+          <div data-aos='slide-right' className="p-box">
             <i class="fa-solid fa-sack-dollar"></i>
             <h3 className="font-weight-bold">PRO PLAN</h3>
             <span>$ 50</span>
