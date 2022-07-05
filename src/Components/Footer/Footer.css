@@ -1,0 +1,14 @@
+.footer hr{
+    height: 3px;
+    border-radius: 10px;
+    background: var(--button);
+    margin-bottom: 100px;
+}
+.footer img{
+    width: 40px;
+    cursor: pointer;
+}
+.flex{
+    gap: 55px;
+    margin-bottom: 100px;
+}
