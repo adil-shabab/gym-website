@@ -1,0 +1,9 @@
+.email input{
+    border: none;
+    border-radius: 6px;
+    height: 43px;
+    padding-left: 15px;
+}
+.email{
+    gap: 5px;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './Components/Contact/Contact';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import Plans from './Components/Plans/Plans';
@@ -15,6 +16,7 @@ function App() {
       <Why/>
       <Plans/>
       <Testimonial/>
+      <Contact/>
     </div>
   );
 }
