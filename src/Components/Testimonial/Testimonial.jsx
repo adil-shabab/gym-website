@@ -30,11 +30,11 @@ const Testimonial = () => {
       >
         <SwiperSlide className="slide row">
           <div className="mt-4 col-lg-6 col-xlg-6 col-md-6 col-sm-12 col-12">
-            <p className="text-justify" style={{fontSize: '16px'}}>
+            <p className="mb-5 text-justify" style={{fontSize: '16px'}}>
               Lorem ipsum dolor sit amet it is the main the  ad odio tenetur dolor cupiditate nostrum earum
               facere deleniti repellendus magnam
             </p>
-            <span>
+            <span className='font-style'>
               JOHN KEVIN - <span style={{color: 'var(--orange)', fontWeight: 'bold'}}>COACH</span>
             </span>
           </div>
@@ -44,11 +44,11 @@ const Testimonial = () => {
         </SwiperSlide>
         <SwiperSlide className="slide row">
           <div className="mt-4 col-lg-6 col-xlg-6 col-md-6 col-sm-12 col-12">
-            <p className="text-justify" style={{fontSize: '16px'}}>
+            <p className="text-justify mb-5" style={{fontSize: '16px'}}>
               Lorem ipsum dolor sit amet it is the main the  ad odio tenetur dolor cupiditate nostrum earum
               facere deleniti repellendus magnam
             </p>
-            <span>
+            <span className='font-style'>
               ANDREW - <span style={{color: 'var(--orange)', fontWeight: 'bold'}}>CUSTOMER</span>
             </span>
           </div>
@@ -58,11 +58,11 @@ const Testimonial = () => {
         </SwiperSlide>
         <SwiperSlide className="slide row">
           <div className="mt-4 col-lg-6 col-xlg-6 col-md-6 col-sm-12 col-12">
-            <p className="text-justify" style={{fontSize: '16px'}}>
+            <p className="text-justify mb-5" style={{fontSize: '16px'}}>
               Lorem ipsum dolor sit amet it is the main the  ad odio tenetur dolor cupiditate nostrum earum
               facere deleniti repellendus magnam
             </p>
-            <span>
+            <span className='font-style'>
               MATHEW THOMAS - <span style={{color: 'var(--orange)', fontWeight: 'bold'}}>CUSTOMER</span>
             </span>
           </div>
