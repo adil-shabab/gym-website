@@ -24,7 +24,7 @@ const Contact = () => {
 
 
   return (
-    <div className='row contact mb-5'>
+    <div id='contact' className='row contact mb-5'>
         <div className="py-4 col-lg-6 col-xlg-6 col-md-12 col-sm-12 col-12 text-center">
             <p data-aos='slide-right' className="head stroke m-0">READY TO LEVEL UP</p>
             <p data-aos='slide-right' className="head stroke m-0">YOUR BODY WITH US?</p>

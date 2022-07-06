@@ -6,7 +6,7 @@ import NumberCounter from 'number-counter'
 
 const Hero = () => {
   return (
-    <div className="row m-0 text-white pl-1">
+    <div id='home' className="row m-0 text-white pl-1">
       <div className="left-h mt-5 col-lg-9 col-xlg-9 col-md-12 col-sm-12 col-12">
         <div className="bp">
         <i class="fa-solid fa-heart-pulse"></i>

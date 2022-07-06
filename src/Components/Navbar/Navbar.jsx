@@ -17,11 +17,11 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <ul className="nav-ul d-flex text-white">
-        <li>Home</li>
-        <li>Programs</li>
-        <li>Why us</li>
-        <li>Plans</li>
-        <li>Testimonial</li>
+        <a href="#home"><li>Home</li></a>
+        <a href="#programs"><li>Programs</li></a>
+        <a href="#why"><li>Why us</li></a>
+        <a href="#plans"><li>Plans</li></a>
+        <a href="#testimonial"><li>Testimonials</li></a>
       </ul>
       <div className="buttons">
         <button className="button">Join</button>

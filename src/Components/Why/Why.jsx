@@ -11,7 +11,7 @@ import nb from '../../assets/nb.png'
 
 const Why = () => {
   return (
-    <div className='row py-5 mt-5 px-3'>
+    <div id='why' className='row py-5 mt-5 px-3'>
         <div className="d-flex justify-content-center align-items-center col-lg-6 col-xlg-6 col-md-12 col-sm-12 col-12">
             <div className="images">
                 <div className="section-1 px-2">

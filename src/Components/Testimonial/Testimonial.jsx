@@ -10,7 +10,7 @@ import img3 from "../../assets/t-image3.jpg";
 
 const Testimonial = () => {
   return (
-    <div className="testimonial">
+    <div id='testimonial' className="testimonial">
       <span
         style={{ color: "var(--orange)", fontSize: "20px", fontWeight: "bold" }}
       >

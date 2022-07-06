@@ -3,11 +3,17 @@
     height: 3rem;
     cursor: pointer;
 }
-.nav .nav-ul li{
+.nav .nav-ul a li{
     list-style: none;
     margin-right: 20px;
     cursor: pointer;
     transition: 0.8s ease;
+}
+.nav .nav-ul a{
+    color: white;
+}
+.nav .nav-ul a:hover{
+    text-decoration: none;
 }
 .nav .nav-ul li:hover{
     color: var(--orange);

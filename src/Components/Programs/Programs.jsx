@@ -3,7 +3,7 @@ import "./Programs.css";
 
 const Programs = () => {
   return (
-    <div className="mt-5">
+    <div id='programs' className="mt-5">
       <div className="heading">
         <p data-aos='slide-right' className="m-0 stroke">EXPLORE OUR </p>
         <p data-aos='slide-left' className="m-0 stroke"> PROGRAMS</p>

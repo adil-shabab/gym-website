@@ -4,7 +4,7 @@ import whitetick from "../../assets/whiteTick.png";
 
 const Plans = () => {
   return (
-    <div className="mt-5 mb-5 container">
+    <div id='plans' className="mt-5 mb-5 container">
       <div className="heading m-5">
         <p className="m-0 head stroke">READY TO START</p>
         <p className="m-0 head stroke">YOUR JOURNEY</p>
