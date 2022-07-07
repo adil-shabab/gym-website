@@ -1,3 +1,7 @@
+click here to see website:
+https://adil-shabab.github.io/gym-website/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
